@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="?attr/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Name: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/classnid"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/classnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="?attr/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bargraph"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_below="@+id/textView12"
+            android:layout_marginTop="51dp"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</RelativeLayout>

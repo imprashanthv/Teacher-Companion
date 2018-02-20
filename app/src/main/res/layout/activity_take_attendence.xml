@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="teratroopers.teachercompanion.TakeAttendence">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="450dp"
+        android:layout_height="350dp"
+        android:background="?android:attr/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="501"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="100sp"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="101dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/present"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:autoSizeMaxTextSize="35sp"
+        android:background="?attr/colorAccent"
+        android:focusableInTouchMode="true"
+        android:text="Present"
+        android:textColor="@color/cardview_light_background"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="31dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/absent"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:background="?attr/colorAccent"
+        android:text="Absent"
+        android:textColor="@color/cardview_light_background"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/present"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/present" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[2/3]"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25sp"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="31dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorAccent"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/absent"
+        android:layout_marginEnd="51dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="65dp" />
+
+
+</android.support.constraint.ConstraintLayout>

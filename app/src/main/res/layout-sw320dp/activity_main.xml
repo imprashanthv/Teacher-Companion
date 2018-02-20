@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:context="teratroopers.teachercompanion.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="495dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/background_light"
+        android:elevation="20dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:title="Teacher Companion"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:id="@+id/cardView">
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/book" />
+
+        <View
+            android:layout_width="303dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="129dp"
+            android:background="#E0E0E0" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="18dp"
+            android:background="#E0E0E0" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="18dp"
+            android:background="#E0E0E0" />
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/set" />
+
+        <Button
+            android:id="@+id/more"
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="263dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/more" />
+
+        <Button
+            android:id="@+id/addclass"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/addclass" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="95dp"
+            android:text="Add Class"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="165dp"
+            android:background="@drawable/stats_line_chart" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="210dp"
+            android:text="Statistics"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="95dp"
+            android:text="Class List"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="95dp"
+            android:text="Register"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="210dp"
+            android:text="Settings"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="210dp"
+            android:text="  More..."
+            android:textSize="12sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/classlist"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/block_list" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.constraint.ConstraintLayout>

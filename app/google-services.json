@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "766489575829",
+    "firebase_url": "https://teachercompanion-304ca.firebaseio.com",
+    "project_id": "teachercompanion-304ca",
+    "storage_bucket": "teachercompanion-304ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766489575829:android:0824e7b9119ab558",
+        "android_client_info": {
+          "package_name": "teratroopers.teachercompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766489575829-40mgekdmlgn3r4sc2iem01otnn8h1jh5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teratroopers.teachercompanion",
+            "certificate_hash": "8382cd9664edfaee2bd036792e80797e06bc074d"
+          }
+        },
+        {
+          "client_id": "766489575829-43966rsnn64sdeau9tgcu1pp09qe9keg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teratroopers.teachercompanion",
+            "certificate_hash": "a1f541749c984647d3e284df30734bdfb56487cc"
+          }
+        },
+        {
+          "client_id": "766489575829-vu0kh7ikg70kf5150634t2p367dmj4bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teratroopers.teachercompanion",
+            "certificate_hash": "9ef814193056fe7d6105dc6b1da9faaaee738ff9"
+          }
+        },
+        {
+          "client_id": "766489575829-1latasa8pp5ovg74l208rf0pbgqov4bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teratroopers.teachercompanion",
+            "certificate_hash": "10ee51e48fcea8bb55d439af8c01fd6cf402c351"
+          }
+        },
+        {
+          "client_id": "766489575829-ag8tfqfem63aevq3i7hm3cluceurt0ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teratroopers.teachercompanion",
+            "certificate_hash": "e4d4547ffe769974f840a54b2d3fcdad7300325e"
+          }
+        },
+        {
+          "client_id": "766489575829-95p1spafp9tv0522ql37qcdc09u6s0td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmpoCC5vO_kHIrq1mUy5GJ1MwciLH9ZPw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766489575829-95p1spafp9tv0522ql37qcdc09u6s0td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
